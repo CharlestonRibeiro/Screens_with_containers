@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:screens_container/components/components_page1/custom_button.dart';
-
 import 'package:screens_container/components/components_page1/custom_logo.dart';
 import 'package:screens_container/components/components_page1/custom_text.dart';
+import 'package:screens_container/components/components_page1/custom_text2.dart';
 import 'package:screens_container/pages/page_2.dart';
 
 class Page1 extends StatelessWidget {
@@ -68,39 +68,5 @@ class Page1 extends StatelessWidget {
            const CustomText2(),
           ],
         ));
-  }
-}
-
-class CustomText2 extends StatelessWidget {
-  const CustomText2({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Material(
-      color: Colors.black,
-        child: Row(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: const [
-                 Text(
-                  'Already have an account? ',
-                  style: TextStyle(
-                    fontWeight: FontWeight.w500,
-                    color: Colors.white,
-                    fontSize: 18,
-                  ),
-                ),
-             
-             Text(
-              'Sign In',
-              style: TextStyle(
-                fontWeight: FontWeight.w500,
-                fontSize: 18,
-                decoration: TextDecoration.underline,
-                color: Colors.white,
-              ),
-            ),
-             ],
-            ),
-    );
   }
 }
