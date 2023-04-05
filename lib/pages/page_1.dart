@@ -18,6 +18,7 @@ class Page1 extends StatelessWidget {
         backgroundColor: Colors.black,
         appBar: AppBar(
           title: const Text('Desafio 01'),
+          backgroundColor: Colors.black, 
           actions: <Widget>[
             IconButton(
               icon: const Icon(

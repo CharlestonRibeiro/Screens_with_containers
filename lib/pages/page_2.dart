@@ -7,16 +7,24 @@ class Page2 extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return Container(
+      decoration:  const BoxDecoration(
+         gradient: LinearGradient(
+           begin: Alignment.topLeft,
+           end: Alignment.bottomRight, 
+           colors: [
+            Color(0xFFed6968),
+            Color(0xFFea4a77)
+           ]
+        )
+      ),
+     child: Scaffold(
+      backgroundColor: Colors.transparent,
       appBar: AppBar(
-        title: const Text('Desafio 02'),
+        title: const Text('Desafio 2'),
+        backgroundColor: Colors.transparent,
       ),
-      body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: const [],
-        ),
-      ),
+     ),
     );
   }
 }
