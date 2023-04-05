@@ -1,16 +1,21 @@
-# screens_container
+# Screens with containers
 
-A new Flutter project.
+# Desafio de replicar duas fotos em telas Flutter
 
-## Getting Started
+Este projeto é uma solução para o desafio de replicar duas fotos em telas Flutter, proposto pelo [Flutterando](https://flutterando.com.br/). O objetivo do desafio é replicar as duas telas mostradas nas imagens abaixo:
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+## Desafio 1
+<p align="center">
+<img src="https://github.com/CharlestonRibeiro/Screens_with_containers/blob/main/assets/Captura%20de%20tela%202023-04-01%20155952.png" width="300" height="500" />
+<img src="https://github.com/CharlestonRibeiro/Screens_with_containers/blob/main/assets/Captura%20de%20tela%202023-04-05%20160908.png" width="300" height="500"/>
+</p>
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Desafio 2
+<p align="center">
+<img src="https://github.com/CharlestonRibeiro/Screens_with_containers/blob/main/assets/Captura%20de%20tela%202023-04-01%20160034.png" width="300" height="500" />
+<img src="https://github.com/CharlestonRibeiro/Screens_with_containers/blob/main/assets/Captura%20de%20tela%202023-04-05%20160938.png" width="300" height="500"/>
+</p>
+
+
