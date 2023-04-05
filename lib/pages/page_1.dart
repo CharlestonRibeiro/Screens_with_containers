@@ -41,18 +41,18 @@ class Page1 extends StatelessWidget {
             SizedBox(
               height: height * 0.080,
             ),
-           CustomButton(
-              customColor: Colors.indigo.shade700,
+            const CustomButton(
+              customColor: Color(0xFF5e5ce5),
               customHeight: 0.08,
               customText: 'Sign Up with Email ID',
               customWidth: 0.90,
               customFontSize: 20,
               customTextColor: Colors.white,
             ),
-             SizedBox(
+            SizedBox(
               height: height * 0.02,
             ),
-             const CustomButton(
+            const CustomButton(
               customColor: Colors.white,
               customHeight: 0.08,
               customText: 'Sign Up with Google',
@@ -61,20 +61,45 @@ class Page1 extends StatelessWidget {
               customTextColor: Colors.black,
               customImage: 'assets/g.png',
             ),
-
             SizedBox(
               height: height * 0.05,
             ),
-
-             const Text(
-            'Already have an account? Sign In',
-            style: TextStyle(
-              fontWeight: FontWeight.w500,
-              color: Colors.white,
-              fontSize: 18,
-            ),
-          ),
+           const CustomText2(),
           ],
         ));
+  }
+}
+
+class CustomText2 extends StatelessWidget {
+  const CustomText2({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Material(
+      color: Colors.black,
+        child: Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: const [
+                 Text(
+                  'Already have an account? ',
+                  style: TextStyle(
+                    fontWeight: FontWeight.w500,
+                    color: Colors.white,
+                    fontSize: 18,
+                  ),
+                ),
+             
+             Text(
+              'Sign In',
+              style: TextStyle(
+                fontWeight: FontWeight.w500,
+                fontSize: 18,
+                decoration: TextDecoration.underline,
+                color: Colors.white,
+              ),
+            ),
+             ],
+            ),
+    );
   }
 }

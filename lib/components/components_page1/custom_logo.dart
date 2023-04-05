@@ -21,7 +21,7 @@ class CustomLogo extends StatelessWidget {
       
                Container(
                  decoration: BoxDecoration(
-                   color:Colors.indigo.shade700,   
+                   color:const Color(0xFF5e5ce5),   
                    borderRadius: BorderRadius.circular(100)),
                  height: height  * 0.078,
                  width: width * 0.13,           
@@ -29,9 +29,9 @@ class CustomLogo extends StatelessWidget {
                
                SizedBox(height: MediaQuery.of(context).size.height  * 0.0018,),
                Container(
-                 decoration:  BoxDecoration(
-                   color: Colors.indigo.shade700,    
-                   borderRadius: const BorderRadius.only(bottomLeft: Radius.circular(100))),      
+                 decoration:  const BoxDecoration(
+                   color: Color(0xFF5e5ce5),    
+                   borderRadius:  BorderRadius.only(bottomLeft: Radius.circular(100))),      
                  height: height  * 0.078,
                  width: width * 0.13,           
                ),
@@ -39,9 +39,9 @@ class CustomLogo extends StatelessWidget {
            ),
            SizedBox(width: MediaQuery.of(context).size.height  * 0.0018,),
                Container(
-                 decoration:  BoxDecoration(
-                   color: Colors.indigo.shade700,    
-                   borderRadius: const BorderRadius.only(bottomLeft: Radius.circular(100), topRight: Radius.circular(100))),       
+                 decoration:  const BoxDecoration(
+                   color: Color(0xFF5e5ce5)    ,
+                   borderRadius:  BorderRadius.only(bottomLeft: Radius.circular(100), topRight: Radius.circular(100))),       
                  height: height  * 0.156,
                  width: width * 0.13,           
                ),
